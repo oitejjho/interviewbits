@@ -1,14 +1,0 @@
-
-s	java:S1272"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8¼Àü˜Û.
-X	java:S125"<This block of commented-out lines of code should be removed.(ä¹¶é8¦ÊÂ™Û.
-W	java:S125."<This block of commented-out lines of code should be removed.(õçíS8Ô¬†™Û.
-J
-java:S1604!"(Make this anonymous inner class a lambda(¶¥Šêþÿÿÿÿ8õ÷¸˜Û.
-Z
-java:S1197
-"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ8¯ô«˜Û.
-’
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(šäÌ—ýÿÿÿÿ8ÅÚ¬˜Û.
-–
-java:S1319"tThe type of the "intervals" object should be an interface such as "List" rather than the implementation "ArrayList".(šäÌ—ýÿÿÿÿ8ÅÚ¬˜Û.
-X	java:S125"<This block of commented-out lines of code should be removed.(÷ïý8ËÛç˜Û.

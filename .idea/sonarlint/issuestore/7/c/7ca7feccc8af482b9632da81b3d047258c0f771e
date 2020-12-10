@@ -1,11 +1,0 @@
-
-]	java:S125 "<This block of commented-out lines of code should be removed.(‡•„•üÿÿÿÿ8­ïÁ›ä.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ß“Ä8ƒ¬äšä.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(³¡¸ñ8õÆ¼›ä.
-m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úğˆ¹8…Ä”›ä.
-Z
-java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8½Ìšä.
-]	java:S125"<This block of commented-out lines of code should be removed.(½â±üÿÿÿÿ8­…Â›ä.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Ä¬ù’8Õ‡Á›ä.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è…øÿÿÿÿÿ8Î“íšä.
-]	java:S125)"<This block of commented-out lines of code should be removed.(Œ±¦—ùÿÿÿÿ8êÉÂ›ä.
