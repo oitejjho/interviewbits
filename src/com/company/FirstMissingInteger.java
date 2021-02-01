@@ -1,5 +1,7 @@
 package company;
 
+import java.util.ArrayList;
+
 public class FirstMissingInteger {
     public int firstMissingPositive(ArrayList<Integer> A) {
         if(A == null)
