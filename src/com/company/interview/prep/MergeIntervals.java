@@ -1,37 +1,15 @@
-package company;
-
-
-import company.Interval;
+package company.interview.prep;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class MergeOverlappingIntervals {
+public class MergeIntervals {
+    public ArrayList<Interval> insert(ArrayList<Interval> intervals, Interval newInterval) {
 
-    public static void main(String args[]) {
-
-        ArrayList<Interval> lists = new ArrayList<>();
-//        lists.add(new Interval(8, 10));
-//        lists.add(new Interval(2, 6));
-//        lists.add(new Interval(1, 3));
-//        lists.add(new Interval(15, 18));
-
-        lists.add(new Interval(0, 0));
-        lists.add(new Interval(1, 3));
-        lists.add(new Interval(2, 5));
-        lists.add(new Interval(4, 7));
-        lists.add(new Interval(6, 8));
-
-        merge(lists);
-
-    }
-
-    public static ArrayList<Interval> merge(ArrayList<Interval> intervals) {
-
-        // merge intervals
-//        intervals.add(interval);
-
+        if(intervals == null || intervals.size() == 0)
+            return new ArrayList<Interval>() {{add(newInterval);}};
+        intervals.add(newInterval);
         Collections.sort(intervals, new Comparator<Interval>() {
             @Override
             public int compare(Interval start1, Interval start2) {
@@ -54,7 +32,5 @@ public class MergeOverlappingIntervals {
         }
 
         return intervals;
-
     }
-
 }

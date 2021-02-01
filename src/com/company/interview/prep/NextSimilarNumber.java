@@ -1,4 +1,4 @@
-package com.company;
+package company.interview.prep;
 
 public class NextSimilarNumber {
 

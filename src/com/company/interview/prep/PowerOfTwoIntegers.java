@@ -1,4 +1,4 @@
-package company;
+package company.interview.prep;
 
 public class PowerOfTwoIntegers {
 

@@ -1,10 +1,16 @@
-package company;
+package company.interview.prep;
 
-public class MaxSumContiguousSubarray {
+public class Main {
 
-    //    A = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+    public static void main(String[] args) {
+	// write your code here
+        //int[] a = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int[] a = {-2, -1, -3};
+        maxSubArray(a);
+    }
 
-    public int maxSubArray(final int[] A) {
+    public static int maxSubArray(final int[] A) {
+
 
         int maxSum = A[0];
         int sum  = A[0];

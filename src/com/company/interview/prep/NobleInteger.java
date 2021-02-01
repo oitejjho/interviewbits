@@ -1,19 +1,11 @@
-package com.company;
+package company.interview.prep;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class NobelInteger {
-
-
-    public static void main(String args[]){
-
-
-
-    }
+public class NobleInteger {
 
     public int solve(ArrayList<Integer> A) {
-
         if(A == null || A.size() ==0)
             return -1;
 
@@ -33,5 +25,6 @@ public class NobelInteger {
             }
         }
         return -1;
+
     }
 }
