@@ -1,5 +1,7 @@
-package com.company;
+package company;
 
+
+import company.Interval;
 
 import java.util.ArrayList;
 import java.util.Collections;
